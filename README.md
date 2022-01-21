@@ -1,4 +1,4 @@
-### LeetCodeRecord
-It is used to record some experience of doing LeetCode
+# LeetCodeRecord
+It is used to record some experience of doing LeetCode.
 
-# BinarySearch 二分搜索
+## BinarySearch 二分搜索
