@@ -8,6 +8,11 @@
   left=0：左边界，right=nums.size()-1：右边界，mid=（left + right）/ 2：查找的中间位置
 - 查找过程  
   \[left,right\]：while(left <= right)  
-  ![avatar](https://pic.leetcode-cn.com/1641871925-DYgiPG-QQ%E6%88%AA%E5%9B%BE20200217120142.png)
-
-https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-w1h4/
+  ![avatar](https://pic.leetcode-cn.com/1641871925-DYgiPG-QQ%E6%88%AA%E5%9B%BE20200217120142.png)  
+  （https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-w1h4/ ）   
+- 相关题目  
+  [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)：用二分查找分别查找左右边界，查找左边界时收紧右侧，查找右边界时收紧左侧。  
+  [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)：先根据 nums\[mid] 与 nums\[left] 的关系判断 mid 是在左段还是右段，接下来再判断 target 是在 mid 的左边还是右边，从而来调整左右边界。  
+  [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)：将m\*n二维数组转换为一维， num = matrix\[mid/n]\[mid%n]  
+  [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)：[中值与右值作比较](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/er-fen-cha-zhao-wei-shi-yao-zuo-you-bu-dui-cheng-z/)  
+  [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)：nums\[mid]与nums\[mid+1]进行比较。若nums\[mid]>nums\[mid+1]，则一定存在一个峰值在左侧（含中值）；反之在右侧（不含中值）。
