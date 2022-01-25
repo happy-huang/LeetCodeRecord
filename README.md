@@ -16,3 +16,5 @@
   [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)：将m\*n二维数组转换为一维， num = matrix\[mid/n]\[mid%n]  
   [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)：[中值与右值作比较](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/er-fen-cha-zhao-wei-shi-yao-zuo-you-bu-dui-cheng-z/)  
   [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)：nums\[mid]与nums\[mid+1]进行比较。若nums\[mid]>nums\[mid+1]，则一定存在一个峰值在左侧（含中值）；反之在右侧（不含中值）。
+
+## DoublePointer 双指针
