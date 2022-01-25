@@ -2,7 +2,8 @@
 用来记录刷LeetCode题的一些经验。
 
 ## BinarySearch 二分查找
-- 前提条件：有序数组nums：查找数组，t：待查找目标元素
+- 前提条件：
+  有序数组nums：查找数组，t：待查找目标元素
 - 初始化：left=0：左边界，right=nums.size()-1：右边界，mid=（left + right）/ 2：查找的中间位置
 - 查找过程：\[left,right\]：while(left <= right)
 
