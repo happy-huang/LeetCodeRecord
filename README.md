@@ -21,4 +21,5 @@
 [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)：是删除所有的重复元素，所以要在head前再加一个dummyhead。（记得判断空指针！  
 [15. 三数之和](https://leetcode-cn.com/problems/3sum/)：排序+双指针（比较i，i+1和len-1）  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)：从后向前循环，统计退格符的次数，如果退格符不为0，那么这个字符可以不用比较。  
-[986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/)： 比较四个角的大小，通过右侧值的大小来决定是否移到下一个区间。
+[986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/)：比较四个角的大小，通过右侧值的大小来决定是否移到下一个区间。  
+[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)：异位词：通过对字母计数来判断。 双指针实现滑动窗口。
