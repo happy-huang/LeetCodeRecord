@@ -18,3 +18,7 @@
   [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)：nums\[mid]与nums\[mid+1]进行比较。若nums\[mid]>nums\[mid+1]，则一定存在一个峰值在左侧（含中值）；反之在右侧（不含中值）。
 
 ## DoublePointer 双指针
+[82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)：是删除所有的重复元素，所以要在head前再加一个dummyhead。（记得判断空指针！）
+[15. 三数之和](https://leetcode-cn.com/problems/3sum/)：排序+双指针（比较i，i+1和len-1）
+[844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)：从后向前循环，统计退格符的次数，如果退格符不为0，那么这个字符可以不用比较。
+[986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/)： 比较四个角的大小，通过右侧值的大小来决定是否移到下一个区间。
