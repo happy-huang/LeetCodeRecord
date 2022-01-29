@@ -23,4 +23,7 @@
 [15. 三数之和](https://leetcode-cn.com/problems/3sum/)：排序+双指针（比较i，i+1和len-1）  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/)：从后向前循环，统计退格符的次数，如果退格符不为0，那么这个字符可以不用比较。  
 [986. 区间列表的交集](https://leetcode-cn.com/problems/interval-list-intersections/)：比较四个角的大小，通过右侧值的大小来决定是否移到下一个区间。  
-[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)：异位词：通过对字母计数来判断。 双指针实现滑动窗口。
+- 双指针实现滑动窗口题目（左右指针）  
+[438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)：异位词：通过对字母计数来判断。 双指针实现滑动窗口。  
+[713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)：增右减左。每增加一个元素，增加（right-left+1）个子集。  
+[209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)：增右减左。
