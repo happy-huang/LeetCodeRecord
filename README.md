@@ -27,3 +27,12 @@
 [438. 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)：异位词：通过对字母计数来判断。 双指针实现滑动窗口。  
 [713. 乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)：增右减左。每增加一个元素，增加（right-left+1）个子集。  
 [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)：增右减左。
+
+## bfs、dfs、并查集
+- 思路概述  
+  bfs借助queue，dfs借助stack，并查集需完成find()和union()函数。  
+- 相关题目  
+  [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)：n\*m矩阵  
+  [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)：n\*n矩阵  
+
+  
